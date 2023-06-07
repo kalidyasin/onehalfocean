@@ -1,6 +1,6 @@
 # Vim Installation & Usage
 
-![screenshot: vim](../screenshots/vim.png)
+![screenshot: vim](./vim.png)
 NeoVim + Tmux with true colors on iTerm2.
 
 ## Installation
@@ -9,7 +9,7 @@ NeoVim + Tmux with true colors on iTerm2.
 vim-plug:
 
 ```
-Plug 'sonph/onehalf', { 'rtp': 'vim' }
+Plug 'kalidyasin29/onehalfocean'
 ```
 
 The 'rtp' option is necessary as the vim theme resides in a subdirectory of the git repo.
@@ -30,10 +30,10 @@ For example:
 syntax on
 set t_Co=256
 set cursorline
-colorscheme onehalflight
-let g:airline_theme='onehalfdark'
+colorscheme onehalflightocean
+let g:airline_theme='onehalfdarkocean'
 " lightline
-" let g:lightline = { 'colorscheme': 'onehalfdark' }
+" let g:lightline = { 'colorscheme': 'onehalfdarkocean' }
 ```
 
 ### True Colors
